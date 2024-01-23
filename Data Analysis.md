@@ -1,4 +1,4 @@
-ef select_cocoa_bags(bean_count, fat, moisture, fineness, pH, FFA, total_iron, free_iron):
+def select_cocoa_bags(bean_count, fat, moisture, fineness, pH, FFA, total_iron, free_iron):
     # Check bean count
     if 80 <= bean_count <= 100:
         cocoa_type = "Main Crop"
